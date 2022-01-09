@@ -1,6 +1,6 @@
 # e2e-tests WebdriwerIO
 
-e2e-test for WebdriwerIO applications async-await mode
+e2e-test for WebdriwerIO applications async-await mode in selenoid
 ## Setup
 
 ### Install software and check out the project
