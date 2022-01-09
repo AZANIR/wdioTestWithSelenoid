@@ -11,12 +11,12 @@ e2e-test for WebdriwerIO applications async-await mode
 
 ### How to run the tests on windows
 Make sure your selenoid is running in docker
-By local url http://localhost:8080/#/
-We defined a default configuration (config/wdio.chrome.conf.js) for Chrome which will be executed when you run "npm run test:chrome".
 
-### Test structure
+By local url <http://localhost:8080/#/>
+![](https://i.imgur.com/TXP9fi3.png)
 
-All test cases should be coded inside the test folder. There you can organize tests for different apps (e.g. msb-app) and define generic classes with getters and setters to use classes those methods inside other classes.
+We have two configurations with and without video recording
 
-We work with the Page Object Pattern described in <https://webdriver.io/docs/pageobjects.html>. The main idea is to encapsulate logic into page classes and use the logic in the spec files to run the tests.
-For instance we defined the LoginPage and the element as attributes in a class and reuse them in the code.
+-"npm run test:selenoid"  without recording video
+
+-"npm run test:chrome-selenoid"  with recording video
