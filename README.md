@@ -5,12 +5,13 @@ e2e-test for WebdriwerIO applications async-await mode
 
 ### Install software and check out the project
 
-- Download and install Node.JS ( at least 12.X )
+- Download and install Node.JS ( at least 14.X )
 - Clone and checkout the github project
 - Go to the terminal and execute "npm install" inside the checked out folder
 
 ### How to run the tests on windows
-
+Make sure your selenoid is running in docker
+By local url http://localhost:8080/#/
 We defined a default configuration (config/wdio.chrome.conf.js) for Chrome which will be executed when you run "npm run test:chrome".
 
 ### Test structure
