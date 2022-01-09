@@ -20,3 +20,6 @@ We have two configurations with and without video recording
 -"npm run test:selenoid"  without recording video
 
 -"npm run test:chrome-selenoid"  with recording video
+
+
+[How to install selenoid on windows](help/)
