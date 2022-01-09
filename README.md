@@ -17,9 +17,14 @@ By local url <http://localhost:8080/#/>
 
 We have two configurations with and without video recording
 
--"npm run test:selenoid"  without recording video
-
--"npm run test:chrome-selenoid"  with recording video
+- without recording video
+```Console
+npm run test:selenoid
+```
+- with recording video
+```Console
+npm run test:chrome-selenoid
+```
 
 
 [How to install selenoid on windows](help/)
