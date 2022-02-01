@@ -4,7 +4,7 @@
 ### Step download
 
 - Download and install [cm.exe](https://github.com/aerokube/cm/releases) from GitHub
-- Rename downloaded file to cmd.exe
+- Rename downloaded file to cm.exe
 
 ### Step installation
 

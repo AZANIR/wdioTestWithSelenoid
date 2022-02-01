@@ -9,7 +9,11 @@ e2e-test for WebdriwerIO applications async-await mode in selenoid
 - Clone and checkout the github project
 - Go to the terminal and execute "npm install" inside the checked out folder
 
-### How to run the tests on windows
+## How to run the tests on windows
+
+
+[How to install selenoid on windows](help/)
+
 Make sure your selenoid is running in docker
 
 By local url <http://localhost:8080/#/>
@@ -25,6 +29,3 @@ npm run test:selenoid
 ```Console
 npm run test:chrome-selenoid
 ```
-
-
-[How to install selenoid on windows](help/)
